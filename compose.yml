@@ -1,0 +1,29 @@
+services:
+  homer-dev:
+    image: b4bz/homer:latest
+    restart: unless-stopped
+    volumes:
+      - ./assets/:/www/assets:ro
+    environment:
+      - INIT_ASSETS=0 # default, requires the config directory to be writable for the container user (see user option)
+    ports:
+      - '8080:8080'
+  homer-prod:
+    image: ghcr.io/devinci-fablab/homer:latest
+    restart: unless-stopped
+    environment:
+      - INIT_ASSETS=0 # default, requires the config directory to be writable for the container user (see user option)
+    security_opt:
+      - no-new-privileges:true
+    labels:
+      - 'traefik.enable=true'
+      - 'traefik.http.routers.homer.rule=Host(`home.devinci-fablab.fr`)'
+      - 'traefik.http.routers.homer.entrypoints=websecure'
+      - 'traefik.http.routers.homer.tls.certresolver=myresolver'
+      - 'traefik.http.services.homer.loadbalancer.server.port=8080'
+      - 'com.centurylinklabs.watchtower.enable=true'
+    networks:
+      - traefik-network
+networks:
+  traefik-network:
+    external: true

@@ -1,0 +1,250 @@
+# Homepage configuration
+# See https://fontawesome.com/v6/search for icons options
+
+title: Réseaux de services
+subtitle: Made in DeVinci Fablab
+logo: assets/icons/DVFL.png
+
+header: true
+footer: false
+
+# Optional theme customization
+theme: default
+
+defaults:
+  layout: list # Either 'columns', or 'list'
+  colorTheme: auto # One of 'auto', 'light', or 'dark'
+
+connectivityCheck: false
+
+# Optional theme customization (color overrrides)
+# overrrides can also be done using CSS vars
+colors:
+  light:
+    highlight-primary: '#247B7B'
+    highlight-secondary: '#44A1A0'
+    highlight-hover: '#78CDD7'
+    background: '#f5f5f5'
+    card-background: '#fffffA'
+    text: '#363636'
+    text-header: '#ffffff'
+    text-title: '#303030'
+    text-subtitle: '#424242'
+    card-shadow: rgba(0, 0, 0, 0.1)
+    link: '#78CDD7'
+    link-hover: '#363636'
+  dark:
+    highlight-primary: '#247B7B'
+    highlight-secondary: '#44A1A0'
+    highlight-hover: '#78CDD7'
+    background: '#131313'
+    card-background: '#2b2b2b'
+    text: '#eaeaea'
+    text-header: '#ffffff'
+    text-title: '#fafafa'
+    text-subtitle: '#f5f5f5'
+    card-shadow: rgba(0, 0, 0, 0.4)
+    link: '#78CDD7'
+    link-hover: '#ffdd57'
+
+message:
+  style: is-dark
+  title: Bienvenue dans les Services Réseau du DeVinci Fablab !
+  icon: fa-solid fa-door-open
+  content: 'Vous trouverez ici une collection d''outils et d''applications soigneusement sélectionnés pour soutenir vos projets et votre parcours d''apprentissage. <br /> <br /> <b>Note :</b> Les services auto-hébergés sont fournis à des fins éducatives et de projet. Bien que nous nous efforcions d''assurer la fiabilité, veuillez vous assurer d''avoir des sauvegardes de vos données importantes.'
+
+links:
+  - name: Portfolio
+    icon: fa-solid fa-briefcase
+    url: https://devinci-fablab.github.io/Partnerships-Portfolio/
+    target: _blank
+  - name: GitHub
+    icon: fab fa-github
+    url: https://github.com/DeVinci-FabLab
+    target: _blank
+  - name: Contact
+    icon: fa-regular fa-envelope
+    url: mailto:support@devinci-fablab.fr
+  - name: Referral
+    icon: fa-solid fa-handshake
+    url: https://links.mykodelab.dev/@MorganKryze
+    target: _blank
+
+services:
+  - name: Outils
+    icon: fa-solid fa-tools
+    items:
+      - name: OpenSpeedTest
+        logo: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/openspeedtest.svg
+        subtitle: Speedtest vers le serveur
+        tag: auto-hébergé
+        keywords: speedtest opensource
+        url: https://speedtest.devinci-fablab.fr/
+        target: _blank
+      - name: LibreTranslate
+        logo: assets/tools/libretranslate.png
+        subtitle: API de traduction libre
+        tag: auto-hébergé
+        keywords: translator oss API
+        url: https://translate.mykodelab.dev/
+        target: _blank
+      - name: Kutt
+        logo: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/kutt.svg
+        subtitle: Raccourcisseur d'URL
+        tag: auto-hébergé
+        keywords: kutt url shortener
+        url: https://shorturl.devinci-fablab.fr/
+        target: _blank
+      - name: LinkStack
+        logo: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/linkstack.svg
+        subtitle: Page de liens personnalisée
+        tag: auto-hébergé
+        keywords: bookmark manager links
+        url: https://links.devinci-fablab.fr/
+        target: _blank
+
+  - name: Fichiers & Médias
+    icon: fas fa-image
+    items:
+      - name: Stirling pdf
+        logo: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/stirling-pdf.svg
+        subtitle: Couteau suisse pour PDF
+        tag: auto-hébergé
+        keywords: pdf generator
+        url: https://pdf.devinci-fablab.fr/
+        target: _blank
+      - name: ConvertX
+        logo: 'assets/tools/convertx.png'
+        subtitle: Convertir ses medias
+        tag: auto-hébergé
+        keywords: convert file conversion
+        url: https://convert.devinci-fablab.fr/
+        target: _blank
+      - name: Favicon generator
+        logo: assets/tools/realfav.png
+        subtitle: Générateur ses icônes depuis une image
+        keywords: favicons multi platform
+        url: https://realfavicongenerator.net/
+        target: _blank
+
+  - name: Sécurité & Vie privée
+    icon: fas fa-key
+    items:
+      - name: SearXNG
+        logo: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/searxng.svg
+        subtitle: Moteur de recherche fiable
+        tag: auto-hébergé
+        keywords: searx search engine privacy
+        url: https://search.mykodelab.dev/
+        target: _blank
+      - name: Vaultwarden public
+        logo: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/vaultwarden.svg
+        subtitle: Gestionnaire de mots de passe
+        tag: auto-hébergé
+        keywords: bitwarden password manager security
+        url: https://vault.devinci-fablab.fr/#/login
+        target: _blank
+      - name: Vaultwarden panel admin
+        logo: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/vaultwarden.svg
+        subtitle: Gestion des utilisateur
+        tag: auto-hébergé
+        keywords: bitwarden password manager security
+        url: https://vault.devinci-fablab.fr/admin
+        target: _blank
+
+  - name: Visuels
+    icon: fa-regular fa-window-restore
+    items:
+      - name: Undesign
+        logo: 'assets/tools/undesign.png'
+        subtitle: Free collections tools and designs
+        keywords: collection tools designs opensource rich
+        url: https://undesign.learn.uno/
+        target: _blank
+      - name: Coolors
+        icon: fas fa-droplet
+        subtitle: Color palettes finder
+        keywords: colors palettes free
+        url: https://coolors.co/
+        target: _blank
+      - name: Devhints
+        logo: 'assets/tools/devhints.png'
+        subtitle: Cheatsheets from @rstacruz
+        keywords: cheatsheet personnal dev
+        url: https://devhints.io/
+        target: _blank
+      - name: Cheatography
+        icon: fas fa-file
+        subtitle: General purpose cheatsheets
+        keywords: cheatsheets graphy general
+        url: https://cheatography.com/
+        target: _blank
+      - name: Dashboard icons
+        icon: fa-solid fa-icons
+        subtitle: Free SVG icons for your dashboard
+        keywords: icons svg free
+        url: https://github.com/homarr-labs/dashboard-icons/tree/main
+        target: _blank
+
+  - name: Apprentissage
+    icon: fa-solid fa-graduation-cap
+    items:
+      - name: Roadmap.sh
+        logo: assets/tools/roadmap.png
+        subtitle: Parcours de formation pour développeurs
+        keywords: roadmap learning tutorial path journey
+        url: https://roadmap.sh/
+        target: _blank
+      - name: Brilliant
+        logo: assets/tools/brilliant.png
+        subtitle: Platform d'apprentissage en math et science
+        keywords: brilliant math science learning platform
+        url: https://brilliant.org/
+        target: _blank
+      - name: freeCodeCamp
+        logo: assets/tools/freecodecamp.png
+        subtitle: FreeCodeCamp curriculum
+        keywords: freecodecamp curriculum learning teaching formation
+        url: https://www.freecodecamp.org/learn
+        target: _blank
+      - name: Exercism
+        logo: assets/tools/exercism.png
+        subtitle: Plateforme d'exercices de programmation
+        keywords: exercism programming exercises code
+        url: https://exercism.org/
+        target: _blank
+      - name: DataCamp
+        logo: assets/tools/datacamp.png
+        subtitle: Apprentissage Data & IA
+        keywords: data ai programming platform exercises lessons
+        url: https://app.datacamp.com/
+        target: _blank
+      - name: Visualgo
+        icon: fas fa-diagram-project
+        subtitle: Visualisation des algorithmes et structures de données
+        keywords: algo visualisation structures graph
+        url: https://visualgo.net/
+        target: _blank
+
+  - name: Serveurs
+    icon: fa-solid fa-server
+    items:
+      - name: Tableau de bord OVH
+        logo: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/ovh.svg
+        subtitle: Gestion des serveur et DNS
+        keywords: DNS hostname server
+        url: https://www.ovh.com/
+        target: _blank
+      - name: Tableau de bord Traefik
+        logo: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/traefik.svg
+        subtitle: Traefik reverse proxy dashboard
+        keywords: traefik reverse proxy dashboard
+        tag: auto-hébergé
+        url: https://traefik.devinci-fablab.fr/
+        target: _blank
+      - name: GetDeploying
+        logo: assets/tools/getdeploying.png
+        subtitle: Comparateur de cloud providers
+        keywords: deploy cloud providers
+        url: https://getdeploying.com/
+        target: _blank
