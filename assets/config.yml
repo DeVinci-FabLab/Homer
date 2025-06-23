@@ -1,7 +1,7 @@
 # Homepage configuration
 # See https://fontawesome.com/v6/search for icons options
 
-title: Réseaux de services
+title: Réseau de services
 subtitle: Made in DeVinci Fablab
 logo: assets/icons/DVFL.png
 
@@ -51,7 +51,7 @@ message:
   style: is-dark
   title: Bienvenue dans les Services Réseau du DeVinci Fablab !
   icon: fa-solid fa-door-open
-  content: 'Vous trouverez ici une collection d''outils et d''applications soigneusement sélectionnés pour soutenir vos projets et votre parcours d''apprentissage. <br /> <br /> <b>Note :</b> Les services auto-hébergés sont fournis à des fins éducatives et de projet. Bien que nous nous efforcions d''assurer la fiabilité, veuillez vous assurer d''avoir des sauvegardes de vos données importantes.'
+  content: 'Vous trouverez ici une collection d''outils et d''applications soigneusement sélectionnés pour soutenir vos projets et votre parcours d''apprentissage. <br /> <br /> Pour en savoir plus sur le DeVinci Fablab, visitez notre <a href="https://devinci-fablab.fr/" target="_blank" style="color: #78CDD7;">page d''accueil officielle</a>. <br /> <br /> <b>Note :</b> Les services auto-hébergés sont fournis à des fins éducatives et de projet. Bien que nous nous efforcions d''assurer la fiabilité, veuillez vous assurer d''avoir des sauvegardes de vos données importantes.'
 
 links:
   - name: Portfolio
@@ -71,6 +71,49 @@ links:
     target: _blank
 
 services:
+  - name: Impression 3D
+    icon: fa-solid fa-print
+    items:
+      - name: MyFab - Paris
+        logo: 'assets/icons/DVFL_blank.png'
+        subtitle: Plateforme de tickets d'impression 3D
+        tag: auto-hébergé
+        keywords: 3d printing tickets
+        url: https://my.devinci-fablab.fr/
+        target: _blank
+      - name: MyFab - Nantes
+        logo: 'assets/icons/DVFL_blank.png'
+        subtitle: Plateforme de tickets d'impression 3D
+        tag: auto-hébergé
+        keywords: 3d printing tickets
+        url: https://nantes.devinci-fablab.fr/
+        target: _blank
+      - name: Documentation
+        logo: 'assets/icons/DVFL_blank.png'
+        subtitle: Site de documentation de l'asso
+        tag: auto-hébergé
+        keywords: documentation wiki
+        url: https://docs.devinci-fablab.fr/
+        target: _blank
+      - name: Printables
+        logo: 'assets/tools/printables.png'
+        subtitle: Bibliothèque de modèles Prusa
+        keywords: library models 3d printing
+        url: https://www.printables.com/
+        target: _blank
+      - name: Makerworld
+        logo: 'assets/tools/makerworld.png'
+        subtitle: Bibliothèque de modèles Bambulab
+        keywords: library models 3d printing
+        url: https://makerworld.com/
+        target: _blank
+      - name: Thingiverse
+        logo: 'assets/tools/thingiverse.png'
+        subtitle: Bibliothèque de modèles Cura
+        keywords: library models 3d printing
+        url: https://www.thingiverse.com/
+        target: _blank
+
   - name: Outils
     icon: fa-solid fa-tools
     items:
