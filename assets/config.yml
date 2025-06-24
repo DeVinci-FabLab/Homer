@@ -65,9 +65,9 @@ links:
   - name: Contact
     icon: fa-regular fa-envelope
     url: mailto:support@devinci-fablab.fr
-  - name: Referral
-    icon: fa-solid fa-handshake
-    url: https://links.mykodelab.dev/@MorganKryze
+  - name: Faire un don :)
+    icon: fa-solid fa-heart
+    url: https://www.helloasso.com/associations/devinci-fablab/formulaires/1
     target: _blank
 
 services:
