@@ -145,6 +145,19 @@ services:
         keywords: bookmark manager links
         url: https://links.devinci-fablab.fr/
         target: _blank
+      - name: HeyForm
+        logo: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/heyform.svg
+        subtitle: Création de formulaires
+        tag: auto-hébergé
+        keywords: form builder survey
+        url: https://form.devinci-fablab.fr/
+        target: _blank
+      - name: Rally
+        logo: 'assets/tools/rally.png'
+        subtitle: Prise de rendez-vous
+        keywords: appointment scheduling calendar
+        url: https://rallly.co/
+        target: _blank
 
   - name: Fichiers & Médias
     icon: fas fa-image
