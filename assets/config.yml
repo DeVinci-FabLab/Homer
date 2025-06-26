@@ -145,13 +145,6 @@ services:
         keywords: bookmark manager links
         url: https://links.devinci-fablab.fr/
         target: _blank
-      - name: HeyForm
-        logo: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/heyform.svg
-        subtitle: Création de formulaires
-        tag: auto-hébergé
-        keywords: form builder survey
-        url: https://form.devinci-fablab.fr/
-        target: _blank
       - name: Rally
         logo: 'assets/tools/rally.png'
         subtitle: Prise de rendez-vous
@@ -198,7 +191,7 @@ services:
         subtitle: Gestionnaire de mots de passe
         tag: auto-hébergé
         keywords: bitwarden password manager security
-        url: https://vault.devinci-fablab.fr/#/login
+        url: https://vault.devinci-fablab.fr/
         target: _blank
       - name: Vaultwarden panel admin
         logo: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/vaultwarden.svg
@@ -297,6 +290,13 @@ services:
         keywords: traefik reverse proxy dashboard
         tag: auto-hébergé
         url: https://traefik.devinci-fablab.fr/
+        target: _blank
+      - name: Uptime Kuma
+        logo: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/uptime-kuma.svg
+        subtitle: Surveillance de la disponibilité des services
+        tag: auto-hébergé
+        keywords: uptime monitoring services
+        url: https://uptime.devinci-fablab.fr/
         target: _blank
       - name: GetDeploying
         logo: assets/tools/getdeploying.png
