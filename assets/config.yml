@@ -296,8 +296,9 @@ services:
         subtitle: Surveillance de la disponibilité des services
         tag: auto-hébergé
         keywords: uptime monitoring services
-        url: https://uptime.devinci-fablab.fr/
+        url: https://uptime.devinci-fablab.fr/status/general
         target: _blank
+        type: "UptimeKuma"
       - name: GetDeploying
         logo: assets/tools/getdeploying.png
         subtitle: Comparateur de cloud providers
