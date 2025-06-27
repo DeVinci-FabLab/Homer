@@ -293,6 +293,7 @@ services:
         target: _blank
       - name: Uptime Kuma
         logo: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/uptime-kuma.svg
+        subtitle: Surveillance de la disponibilité des services
         tag: auto-hébergé
         keywords: uptime monitoring services
         url: https://uptime.devinci-fablab.fr
