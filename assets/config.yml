@@ -317,3 +317,9 @@ services:
         keywords: deploy cloud providers
         url: https://getdeploying.com/
         target: _blank
+      - name: Awesome Docker Compose
+        logo: assets/tools/compose.png
+        subtitle: Collection d'applications Docker Compose
+        keywords: docker compose applications
+        url: https://awesome-docker-compose.com/apps/
+        target: _blank
