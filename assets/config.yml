@@ -235,6 +235,17 @@ services:
         url: https://github.com/homarr-labs/dashboard-icons/tree/main
         target: _blank
 
+  - name: Jeux
+    icon: fa-solid fa-gamepad
+    items:
+      - name: Page statut Crafty
+        logo: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/minecraft.svg
+        subtitle: Serveurs Minecraft multi-joueurs
+        tag: auto-hébergé
+        keywords: minecraft server multiplayer
+        url: https://crafty.devinci-fablab.fr/status
+        target: _blank
+
   - name: Apprentissage
     icon: fa-solid fa-graduation-cap
     items:
@@ -298,7 +309,7 @@ services:
         keywords: uptime monitoring services
         url: https://uptime.devinci-fablab.fr
         target: _blank
-        type: "UptimeKuma"
+        type: 'UptimeKuma'
         slug: general
       - name: GetDeploying
         logo: assets/tools/getdeploying.png
