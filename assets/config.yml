@@ -238,9 +238,16 @@ services:
   - name: Jeux
     icon: fa-solid fa-gamepad
     items:
+      - name: Tableau de bord Crafty
+        logo: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/minecraft.svg
+        subtitle: Gestion de serveurs Minecraft
+        tag: auto-hébergé
+        keywords: minecraft server multiplayer
+        url: https://crafty.devinci-fablab.fr/
+        target: _blank
       - name: Page statut Crafty
         logo: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/minecraft.svg
-        subtitle: Serveurs Minecraft multi-joueurs
+        subtitle: État en temps réel des serveurs
         tag: auto-hébergé
         keywords: minecraft server multiplayer
         url: https://crafty.devinci-fablab.fr/status
