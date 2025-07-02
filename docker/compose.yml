@@ -1,14 +1,5 @@
 services:
-  homer-dev:
-    image: b4bz/homer:latest
-    restart: unless-stopped
-    volumes:
-      - ./assets/:/www/assets:ro
-    environment:
-      - INIT_ASSETS=0 # default, requires the config directory to be writable for the container user (see user option)
-    ports:
-      - '8080:8080'
-  homer-prod:
+  homer:
     image: ghcr.io/devinci-fablab/homer:latest
     restart: unless-stopped
     environment:
