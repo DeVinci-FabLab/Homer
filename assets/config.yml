@@ -51,7 +51,7 @@ message:
   style: is-dark
   title: Bienvenue dans l'intranet du DeVinci Fablab !
   icon: fa-solid fa-door-open
-  content: 'Vous trouverez ici une collection d''outils et d''applications soigneusement sélectionnés pour soutenir vos projets et votre organisation. <br /> <br /> Pour en savoir plus sur le DeVinci Fablab, visitez notre <a href="https://devinci-fablab.fr/" target="_blank" style="color: #78CDD7;">page d''accueil officielle</a>. Vous pouvez également consulter l''<a href="https://uptime.devinci-fablab.fr/status/general" target="_blank" style="color: #78CDD7;">état des services</a>. <br /> <br /> <b>Note :</b> Les services auto-hébergés ne sont pas assurément stables. Bien que nous nous efforcions d''assurer la fiabilité, veuillez vous assurer d''avoir des sauvegardes de vos données importantes.'
+  content: 'Vous trouverez ici une collection d''outils et d''applications soigneusement sélectionnés pour soutenir vos projets et l''association. <br /> <br /> Pour en savoir plus sur le DeVinci Fablab, visitez notre <a href="https://devinci-fablab.fr/" target="_blank" style="color: #78CDD7;">page d''accueil officielle</a>. Vous pouvez également consulter l''<a href="https://uptime.devinci-fablab.fr/status/general" target="_blank" style="color: #78CDD7;">état des différents services</a>. <br /> <br /> <b>Note :</b> Les services auto-hébergés ne sont pas assurément stables. Bien que nous nous efforcions d''assurer la fiabilité, veuillez vous assurer d''avoir des sauvegardes de vos données importantes.'
 
 links:
   - name: Portfolio
