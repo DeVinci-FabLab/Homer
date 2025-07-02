@@ -6,6 +6,9 @@ services:
       - INIT_ASSETS=0 # default, requires the config directory to be writable for the container user (see user option)
     security_opt:
       - no-new-privileges:true
+    deploy:
+      mode: replicated
+      replicas: 2
     labels:
       - 'traefik.enable=true'
       - 'traefik.http.routers.homer.rule=Host(`home.devinci-fablab.fr`)'
