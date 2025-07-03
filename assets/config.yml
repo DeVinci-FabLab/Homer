@@ -151,6 +151,13 @@ services:
         keywords: appointment scheduling calendar
         url: https://rallly.co/
         target: _blank
+      - name: IT - tools
+        icon: fa-solid fa-laptop-code
+        subtitle: Outils pour les développeurs
+        tag: auto-hébergé
+        keywords: tools it devops sysadmin
+        url: https://it.devinci-fablab.fr/
+        target: _blank
 
   - name: Fichiers & Médias
     icon: fas fa-image
