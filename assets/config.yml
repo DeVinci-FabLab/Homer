@@ -182,6 +182,13 @@ services:
         keywords: favicons multi platform
         url: https://realfavicongenerator.net/
         target: _blank
+      - name: Enclosed
+        icon: fa-solid fa-lock
+        subtitle: Envoi de notes sécurisées
+        tag: auto-hébergé
+        keywords: send manager self-hosted
+        url: https://notes.devinci-fablab.fr/
+        target: _blank
 
   - name: Sécurité & Vie privée
     icon: fas fa-key
