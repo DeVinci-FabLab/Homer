@@ -182,13 +182,6 @@ services:
         keywords: favicons multi platform
         url: https://realfavicongenerator.net/
         target: _blank
-      - name: Enclosed
-        icon: fa-solid fa-lock
-        subtitle: Envoi de notes sécurisées
-        tag: auto-hébergé
-        keywords: send manager self-hosted
-        url: https://notes.devinci-fablab.fr/
-        target: _blank
 
   - name: Sécurité & Vie privée
     icon: fas fa-key
@@ -213,6 +206,20 @@ services:
         tag: auto-hébergé
         keywords: bitwarden password manager security
         url: https://vault.devinci-fablab.fr/admin
+        target: _blank
+      - name: Enclosed
+        icon: fa-solid fa-lock
+        subtitle: Envoi de notes sécurisées
+        tag: auto-hébergé
+        keywords: send manager self-hosted
+        url: https://notes.devinci-fablab.fr/
+        target: _blank
+      - name: Docuseal
+        logo: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/docuseal.svg
+        subtitle: Signature électronique de documents
+        tag: auto-hébergé
+        keywords: docuseal electronic signature
+        url: https://sign.devinci-fablab.fr/
         target: _blank
 
   - name: Visuels
