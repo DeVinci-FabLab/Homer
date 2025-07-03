@@ -256,6 +256,13 @@ services:
   - name: Apprentissage
     icon: fa-solid fa-graduation-cap
     items:
+      - name: Kiwix
+        logo: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/kiwix.svg
+        subtitle: Répertoire de wiki hors ligne
+        keywords: kiwix offline wikipedia content
+        tag: auto-hébergé
+        url: https://wiki.devinci-fablab.fr/
+        target: _blank
       - name: Roadmap.sh
         logo: assets/tools/roadmap.png
         subtitle: Parcours de formation pour développeurs
