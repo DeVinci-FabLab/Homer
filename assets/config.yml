@@ -158,6 +158,13 @@ services:
         keywords: tools it devops sysadmin
         url: https://it.devinci-fablab.fr/
         target: _blank
+      - name: Invoice ninja
+        logo: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/invoice-ninja.svg
+        subtitle: Gestion de factures et devis
+        tag: auto-hébergé
+        keywords: invoice billing management
+        url: https://invoices.devinci-fablab.fr/
+        target: _blank
 
   - name: Fichiers & Médias
     icon: fas fa-image
