@@ -351,8 +351,13 @@ services:
         keywords: uptime monitoring services
         url: https://uptime.devinci-fablab.fr
         target: _blank
-        type: 'UptimeKuma'
-        slug: general
+      - name: Duplicati
+        logo: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/duplicati.svg
+        subtitle: Solution de sauvegarde
+        tag: auto-hébergé
+        keywords: duplicati backup solution
+        url: https://backups.devinci-fablab.fr/
+        target: _blank
       - name: GetDeploying
         logo: assets/tools/getdeploying.png
         subtitle: Comparateur de cloud providers
