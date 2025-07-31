@@ -129,7 +129,7 @@ services:
         subtitle: API de traduction libre
         tag: auto-hébergé
         keywords: translator oss API
-        url: https://translate.mykodelab.dev/
+        url: https://translate.libresoftware.cloud/
         target: _blank
       - name: Kutt
         logo: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/kutt.svg
@@ -198,7 +198,7 @@ services:
         subtitle: Moteur de recherche fiable
         tag: auto-hébergé
         keywords: searx search engine privacy
-        url: https://search.mykodelab.dev/
+        url: https://search.libresoftware.cloud/
         target: _blank
       - name: Vaultwarden public
         logo: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/vaultwarden.svg
